@@ -40,14 +40,21 @@
     - git push
     -> Đẩy dữ liệu local lên remote
 
-    Muốn lôi dữ liệu từ remote repo
+        Muốn lôi dữ liệu từ remote repo
     B1: Mở terminal
     B2: cd kéo thả thư mục chính chứa thư mục dự án
     B3: git clone đường dẫn githud dự án
     B4: cd tên thư mục dự án
     B5: code . (để mở VS code của dự án ra)
 
-    Kéo branch nào đó trên remote về local (vd: tên branch -> staging)
+
+        Kéo branch nào đó trên remote về local (vd: tên branch -> staging)
     B1: git fetch origin
     B2: get checkout -b staging staging/origin
+
+
+        Liên kết đến github ( viết code này trong vscode)
+    B1: git remote add origin (origin là tên default -> đặt tên khác cũng được) đường dẫn github đã tạo
+    B2: git branch -M main (tên branch chính muốn push lên)
+    B3: git push -u origin main (thiêt lập cho branch có thể push lên)
 -->
